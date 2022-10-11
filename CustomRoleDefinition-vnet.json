@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "roleName": "Azure Image Builder Service Networking Role",
+        "description": "Grants Azure Image Builder access to create resources for the image build",
+        "assignableScopes": [
+            "/providers/Microsoft.Management/managementGroups/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
