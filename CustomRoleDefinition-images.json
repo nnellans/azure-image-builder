@@ -1,7 +1,7 @@
 {
     "properties": {
         "roleName": "Azure Image Builder Service Image Creation Role",
-        "description": "Grants Azure Image Builder access to create Distribution targets",
+        "description": "Grants Azure Image Builder access to Compute Galleries and Managed Images",
         "assignableScopes": [
             "/providers/Microsoft.Management/managementGroups/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         ],
