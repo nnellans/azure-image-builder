@@ -1,6 +1,6 @@
 {
     "properties": {
-        "roleName": "Azure Image Builder Service Networking Role",
+        "roleName": "Azure Image Builder Service - Networking Role",
         "description": "Grants Azure Image Builder access to Virtual Networks and Subnets",
         "assignableScopes": [
             "/providers/Microsoft.Management/managementGroups/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
